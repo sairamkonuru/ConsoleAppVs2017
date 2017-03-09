@@ -10,10 +10,14 @@ namespace ConsoleAppVs2017
     class Program
     {
         static void Main(string[] args)
-        {//sreeraama
-           WriteLine("Jai Ganesha");
-           WriteLine("Jai Guru charan");
-           Beep();
+        {
+            //sreeraama
+            BackgroundColor = ConsoleColor.DarkYellow;
+            Clear();
+            WriteLine("Jai Ganesha");
+            WriteLine("Jai Guru charan");
+            Beep();
+
         }
     }
 }
